@@ -1,0 +1,76 @@
+{"level":"WARN","ts":"2023-01-17T22:17:42.617+0800","msg":"[Navi Gateway] AddHTTPServiceReq Bind Error,err:Key: 'UpdateHTTPServiceReq.service_name' Error:Field validation for 'service_name' failed on the 'match_service_name' tag"}
+{"level":"WARN","ts":"2023-01-17T22:17:49.661+0800","msg":"[Navi Gateway] AddHTTPServiceReq Bind Error,err:Key: 'UpdateHTTPServiceReq.service_name' Error:Field validation for 'service_name' failed on the 'match_service_name' tag"}
+{"level":"ERROR","ts":"2023-01-17T22:39:51.178+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:39:51.179+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:40:51.455+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:40:51.455+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:46:14.016+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:46:18.321+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-18T13:33:26.731+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-18T13:33:26.732+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-18T15:00:20.503+0800","msg":"[Navi Gateway] http server start error,ip:127.0.0.1:4433"}
+{"level":"ERROR","ts":"2023-01-18T15:00:20.503+0800","msg":"[Navi Gateway] http server start error,ip:127.0.0.1:8880"}
+{"level":"ERROR","ts":"2023-01-20T16:42:01.159+0800","msg":"[Navi Gateway] http server start error,ip:127.0.0.1:8880"}
+{"level":"ERROR","ts":"2023-01-20T16:42:01.159+0800","msg":"[Navi Gateway] http server start error,ip:127.0.0.1:4433"}
+{"level":"ERROR","ts":"2023-01-20T16:43:16.958+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:43:16.958+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:43:16.971+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T16:43:16.971+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T16:44:36.179+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:44:36.179+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:44:36.191+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T16:44:36.191+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T16:46:57.100+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:46:57.100+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:46:57.112+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T16:46:57.112+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T16:47:16.751+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:47:16.751+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:47:16.758+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T16:47:16.758+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T16:48:29.693+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:48:29.693+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T16:48:29.705+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T16:48:29.705+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:05:41.225+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:05:41.225+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:05:41.238+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:05:41.238+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:07:08.445+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:07:08.445+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:07:08.458+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:07:08.458+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:08:59.461+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:08:59.461+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:08:59.472+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:08:59.472+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:10:40.849+0800","msg":"[Navi Gateway] http server start error,ip:127.0.0.1:4433"}
+{"level":"ERROR","ts":"2023-01-20T17:10:40.850+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:10:40.849+0800","msg":"[Navi Gateway] http server start error,ip:127.0.0.1:8880"}
+{"level":"ERROR","ts":"2023-01-20T17:10:40.850+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:10:40.863+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:10:40.863+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:11:50.765+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:11:50.765+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:11:50.776+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:11:50.776+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:13:37.599+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:13:37.599+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:13:37.611+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:13:37.611+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:17:31.845+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:17:31.845+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:17:31.857+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:17:31.857+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:18:05.568+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:18:05.568+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:18:05.582+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:18:05.582+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:24:10.161+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:24:10.161+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:24:10.174+0800","msg":"[Error] TcpProxyListenError:8012\n"}
+{"level":"ERROR","ts":"2023-01-20T17:24:10.174+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:26:50.993+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:26:50.993+0800","msg":"[Navi Gateway] start tcp proxy server error,port:127.0.0.1"}
+{"level":"ERROR","ts":"2023-01-20T17:26:51.007+0800","msg":"[Error] TcpProxyListenError:8888\n"}
+{"level":"ERROR","ts":"2023-01-20T17:26:51.007+0800","msg":"[Error] TcpProxyListenError:8012\n"}

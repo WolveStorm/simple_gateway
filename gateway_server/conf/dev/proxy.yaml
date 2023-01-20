@@ -1,0 +1,16 @@
+http:
+  host: 127.0.0.1
+  port: 8880
+  read-timeout: 10000
+  write-timeout: 10000
+  max-header-bytes: 20
+https:
+  host: 127.0.0.1
+  port: 4433
+  read-timeout: 10000
+  write-timeout: 10000
+  max-header-bytes: 20
+tcp:
+  host: 127.0.0.1
+grpc:
+  host: 127.0.0.1

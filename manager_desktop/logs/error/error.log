@@ -1,0 +1,11 @@
+{"level":"ERROR","ts":"2023-01-14T15:03:16.576+0800","msg":"[Navi Gateway] dashboard server start error,ip:127.0.0.1:8000"}
+{"level":"ERROR","ts":"2023-01-14T16:43:53.599+0800","msg":"[Navi Gateway] dashboard server start error,ip:127.0.0.1:8000"}
+{"level":"ERROR","ts":"2023-01-15T23:26:58.839+0800","msg":"[Navi Gateway] dashboard server start error,ip:127.0.0.1:8000"}
+{"level":"ERROR","ts":"2023-01-17T22:43:20.015+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:43:21.418+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:43:34.516+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:44:03.471+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:44:29.134+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:44:30.795+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:45:09.024+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:45:10.487+0800","msg":"service信息载入到内存出错！"}

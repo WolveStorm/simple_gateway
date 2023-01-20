@@ -1,0 +1,105 @@
+{"level":"ERROR","ts":"2023-01-14T15:03:16.576+0800","msg":"[Navi Gateway] dashboard server start error,ip:127.0.0.1:8000"}
+{"level":"ERROR","ts":"2023-01-14T16:43:53.599+0800","msg":"[Navi Gateway] dashboard server start error,ip:127.0.0.1:8000"}
+{"level":"WARN","ts":"2023-01-14T17:58:13.036+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-14T17:58:52.448+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-14T18:00:40.384+0800","msg":"[Navi Gateway] get service detail error,err:Error 1054 (42S22): Unknown column 'is_delete' in 'where clause'"}
+{"level":"WARN","ts":"2023-01-14T18:01:26.550+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-14T18:01:59.975+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-14T18:02:49.917+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-15T23:26:48.453+0800","msg":"[Navi Gateway] add http error,err:unsupported data type: map[:0 load_type:0 service_desc:test2 service_name:test_http]: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+{"level":"ERROR","ts":"2023-01-15T23:26:58.839+0800","msg":"[Navi Gateway] dashboard server start error,ip:127.0.0.1:8000"}
+{"level":"WARN","ts":"2023-01-15T23:28:03.900+0800","msg":"[Navi Gateway] add http error,err:unsupported data type: map[:0 load_type:0 service_desc:test2 service_name:test_http]: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+{"level":"WARN","ts":"2023-01-15T23:28:48.759+0800","msg":"[Navi Gateway] add http error,err:unsupported data type: map[id:0 load_type:0 service_desc:test2 service_name:test_http]: Table not set, please set it like: db.Model(&user) or db.Table(\"users\")"}
+{"level":"WARN","ts":"2023-01-15T23:29:22.498+0800","msg":"[Navi Gateway] add http error,err:invalid field found for struct simple_gateway/model.ServiceInfo's field BaseModel: define a valid foreign key for relations or implement the Valuer/Scanner interface"}
+{"level":"WARN","ts":"2023-01-15T23:30:01.720+0800","msg":"[Navi Gateway] add http error,err:invalid field found for struct simple_gateway/model.ServiceInfo's field BaseModel: define a valid foreign key for relations or implement the Valuer/Scanner interface"}
+{"level":"WARN","ts":"2023-01-15T23:31:38.893+0800","msg":"[Navi Gateway] get service detail error,err:invalid field found for struct simple_gateway/model.ServiceInfo's field BaseModel: define a valid foreign key for relations or implement the Valuer/Scanner interface"}
+{"level":"WARN","ts":"2023-01-15T23:35:26.906+0800","msg":"[Navi Gateway] AddHTTPServiceReq Bind Error,err:Key: 'AddHTTPServiceReq.ip_list' Error:Field validation for 'ip_list' failed on the 'required' tag"}
+{"level":"WARN","ts":"2023-01-15T23:38:24.730+0800","msg":"[Navi Gateway] add http error,err:Error 1062 (23000): Duplicate entry '0' for key 'PRIMARY'"}
+{"level":"WARN","ts":"2023-01-16T11:08:37.353+0800","msg":"[Navi Gateway] add http error,err:Error 1062 (23000): Duplicate entry '0' for key 'PRIMARY'"}
+{"level":"WARN","ts":"2023-01-16T11:09:57.476+0800","msg":"[Navi Gateway] add http error,err:Error 1062 (23000): Duplicate entry '0' for key 'PRIMARY'"}
+{"level":"WARN","ts":"2023-01-16T11:15:46.572+0800","msg":"[Navi Gateway] add http error,err:Error 1062 (23000): Duplicate entry '0' for key 'PRIMARY'"}
+{"level":"WARN","ts":"2023-01-16T11:58:50.942+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:01:44.498+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:02:32.660+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:03:43.525+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:05:13.252+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:06:12.483+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:06:24.467+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:07:21.902+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:08:28.236+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:08:55.339+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:11:08.272+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:11:31.416+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:11:48.583+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:12:06.659+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:12:33.495+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:14:59.706+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:23:44.894+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:23:52.496+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:24:12.678+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:25:43.524+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:26:15.467+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:27:02.111+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:27:14.300+0800","msg":"[Navi Gateway] add http error,err:已经存在相同的http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:27:26.996+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:27:34.090+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:27:55.181+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:28:35.134+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:28:53.728+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:29:20.014+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:30:46.042+0800","msg":"[Navi Gateway] add http error,err:已经存在相同的http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:30:53.164+0800","msg":"[Navi Gateway] add http error,err:已经存在相同的http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:31:43.293+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:32:36.905+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:33:50.253+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:34:15.856+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:35:16.194+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:36:30.339+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:36:47.102+0800","msg":"[Navi Gateway] add http error,err:已经存在相同的http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:37:15.137+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:37:22.283+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:41:46.460+0800","msg":"[Navi Gateway] add http error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:44:08.333+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:45:08.472+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:45:18.810+0800","msg":"[Navi Gateway] add http error,err:已经存在相同服务名了"}
+{"level":"WARN","ts":"2023-01-16T12:47:19.868+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:48:23.426+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:50:10.520+0800","msg":"[Navi Gateway] add http error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T12:55:27.429+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:57:43.628+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:57:50.018+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:58:21.792+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:58:42.501+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T12:59:24.598+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T13:00:00.908+0800","msg":"[Navi Gateway] add http error,err:已经存在相同http配置了"}
+{"level":"WARN","ts":"2023-01-16T13:02:26.806+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T13:02:40.421+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T13:03:18.629+0800","msg":"[Navi Gateway] get service detail error,err:record not found"}
+{"level":"WARN","ts":"2023-01-16T16:04:58.177+0800","msg":"[Navi Gateway] AddHTTPServiceReq Bind Error,err:Key: 'AddHTTPServiceReq.service_name' Error:Field validation for 'service_name' failed on the 'match_service_name' tag\nKey: 'AddHTTPServiceReq.service_desc' Error:Field validation for 'service_desc' failed on the 'match_service_name' tag\nKey: 'AddHTTPServiceReq.ip_list' Error:Field validation for 'ip_list' failed on the 'is_valid_ip_list' tag\nKey: 'AddHTTPServiceReq.forbid_list' Error:Field validation for 'forbid_list' failed on the 'is_valid_ip_list' tag\nKey: 'AddHTTPServiceReq.weight_list' Error:Field validation for 'weight_list' failed on the 'is_valid_weight_list' tag"}
+{"level":"WARN","ts":"2023-01-16T16:08:01.594+0800","msg":"[Navi Gateway] AddHTTPServiceReq Bind Error,err:Key: 'AddHTTPServiceReq.service_desc' Error:Field validation for 'service_desc' failed on the 'match_service_name' tag"}
+{"level":"WARN","ts":"2023-01-16T16:10:15.359+0800","msg":"[Navi Gateway] AddTCPServiceReq Bind Error,err:Key: 'AddTCPServiceReq.service_name' Error:Field validation for 'service_name' failed on the 'match_service_name' tag\nKey: 'AddTCPServiceReq.port' Error:Field validation for 'port' failed on the 'max' tag\nKey: 'AddTCPServiceReq.forbid_list' Error:Field validation for 'forbid_list' failed on the 'required' tag\nKey: 'AddTCPServiceReq.weight_list' Error:Field validation for 'weight_list' failed on the 'is_valid_weight_list' tag"}
+{"level":"WARN","ts":"2023-01-16T16:10:22.074+0800","msg":"[Navi Gateway] AddTCPServiceReq Bind Error,err:Key: 'AddTCPServiceReq.service_name' Error:Field validation for 'service_name' failed on the 'match_service_name' tag\nKey: 'AddTCPServiceReq.port' Error:Field validation for 'port' failed on the 'max' tag\nKey: 'AddTCPServiceReq.forbid_list' Error:Field validation for 'forbid_list' failed on the 'required' tag\nKey: 'AddTCPServiceReq.weight_list' Error:Field validation for 'weight_list' failed on the 'is_valid_weight_list' tag"}
+{"level":"WARN","ts":"2023-01-16T16:10:23.349+0800","msg":"[Navi Gateway] AddTCPServiceReq Bind Error,err:Key: 'AddTCPServiceReq.service_name' Error:Field validation for 'service_name' failed on the 'match_service_name' tag\nKey: 'AddTCPServiceReq.port' Error:Field validation for 'port' failed on the 'max' tag\nKey: 'AddTCPServiceReq.forbid_list' Error:Field validation for 'forbid_list' failed on the 'required' tag"}
+{"level":"WARN","ts":"2023-01-16T16:10:32.342+0800","msg":"[Navi Gateway] AddTCPServiceReq Bind Error,err:Key: 'AddTCPServiceReq.service_name' Error:Field validation for 'service_name' failed on the 'match_service_name' tag\nKey: 'AddTCPServiceReq.port' Error:Field validation for 'port' failed on the 'max' tag\nKey: 'AddTCPServiceReq.forbid_list' Error:Field validation for 'forbid_list' failed on the 'required' tag"}
+{"level":"WARN","ts":"2023-01-16T16:10:56.586+0800","msg":"[Navi Gateway] AddTCPServiceReq Bind Error,err:Key: 'AddTCPServiceReq.forbid_list' Error:Field validation for 'forbid_list' failed on the 'required' tag"}
+{"level":"WARN","ts":"2023-01-16T16:12:18.906+0800","msg":"[Navi Gateway] AddHTTPServiceReq Bind Error,err:Key: 'AddGRPCServiceReq.forbid_list' Error:Field validation for 'forbid_list' failed on the 'required' tag"}
+{"level":"WARN","ts":"2023-01-16T16:13:11.375+0800","msg":"[Navi Gateway] AddHTTPServiceReq Bind Error,err:Key: 'AddGRPCServiceReq.header_transfor' Error:Field validation for 'header_transfor' failed on the 'is_valid_header_transfor' tag"}
+{"level":"WARN","ts":"2023-01-16T22:32:36.298+0800","msg":"[Navi Gateway] AddUserReq Bind Error,err:Key: 'AddUserReq.name' Error:Field validation for 'name' failed on the 'required' tag\nKey: 'AddUserReq.secret' Error:Field validation for 'secret' failed on the 'min' tag"}
+{"level":"WARN","ts":"2023-01-16T22:32:43.141+0800","msg":"[Navi Gateway] AddUserReq Bind Error,err:Key: 'AddUserReq.name' Error:Field validation for 'name' failed on the 'required' tag\nKey: 'AddUserReq.secret' Error:Field validation for 'secret' failed on the 'min' tag"}
+{"level":"WARN","ts":"2023-01-16T22:33:17.097+0800","msg":"[Navi Gateway] AddUserReq Bind Error,err:Key: 'AddUserReq.secret' Error:Field validation for 'secret' failed on the 'min' tag"}
+{"level":"WARN","ts":"2023-01-16T22:33:33.178+0800","msg":"[Navi Gateway] AddUserReq Bind Error,err:Key: 'AddUserReq.secret' Error:Field validation for 'secret' failed on the 'min' tag"}
+{"level":"WARN","ts":"2023-01-16T22:46:28.852+0800","msg":"[Navi Gateway] UpdateUserReq Bind Error,err:Key: 'UpdateUserReq.secret' Error:Field validation for 'secret' failed on the 'min' tag"}
+{"level":"WARN","ts":"2023-01-16T23:06:59.731+0800","msg":"[Navi Gateway] AddUserReq Bind Error,err:Key: 'AddUserReq.app_id' Error:Field validation for 'app_id' failed on the 'match_service_name' tag"}
+{"level":"ERROR","ts":"2023-01-17T22:43:20.015+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:43:21.418+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:43:34.516+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:44:03.471+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:44:29.134+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:44:30.795+0800","msg":"service信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:45:09.024+0800","msg":"app信息载入到内存出错！"}
+{"level":"ERROR","ts":"2023-01-17T22:45:10.487+0800","msg":"service信息载入到内存出错！"}
+{"level":"WARN","ts":"2023-01-20T13:53:21.031+0800","msg":"[Navi Gateway] add http error,err:权重列表和IP列表个数不一致"}
+{"level":"WARN","ts":"2023-01-20T18:06:15.523+0800","msg":"[Navi Gateway] get service detail error,err:rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:8848: connectex: No connection could be made because the target machine actively refused it.\""}
+{"level":"WARN","ts":"2023-01-20T18:06:20.085+0800","msg":"[Navi Gateway] get service detail error,err:rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:8848: connectex: No connection could be made because the target machine actively refused it.\""}
+{"level":"WARN","ts":"2023-01-20T18:06:29.083+0800","msg":"[Navi Gateway] get service detail error,err:rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:8848: connectex: No connection could be made because the target machine actively refused it.\""}
+{"level":"WARN","ts":"2023-01-20T18:06:37.062+0800","msg":"[Navi Gateway] get service detail error,err:rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing dial tcp 127.0.0.1:8848: connectex: No connection could be made because the target machine actively refused it.\""}

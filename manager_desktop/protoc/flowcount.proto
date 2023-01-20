@@ -1,0 +1,18 @@
+syntax = "proto3";
+option go_package = "./;protoc";
+
+message FlowCountRequest {
+  string ServiceName = 1;
+}
+
+message FlowCountResponse {
+  int32 qpd = 1;
+  int32 qps = 2;
+  repeated int32 yesterdayCount = 3;
+  repeated int32 todayCount = 4;
+}
+
+service FlowCount {
+  rpc GetServiceFlowCount(FlowCountRequest) returns (FlowCountResponse);
+  rpc GetUserFlowCount(FlowCountRequest) returns (FlowCountResponse);
+}

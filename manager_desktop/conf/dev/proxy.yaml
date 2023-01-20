@@ -1,0 +1,12 @@
+http:
+  host: 127.0.0.1
+  port: 8880
+  read-timeout: 10
+  write-timeout: 10
+  max-header-bytes: 20
+https:
+  host: 127.0.0.1
+  port: 4433
+  read-timeout: 10
+  write-timeout: 10
+  max-header-bytes: 20
