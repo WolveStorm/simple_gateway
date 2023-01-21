@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-	initial.InitConfig(true)
+	initial.InitConfig(false)
 	initial.InitAllZap()
 	initial.InitMysql()
 	initial.InitRedis()

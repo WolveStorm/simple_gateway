@@ -1,0 +1,12 @@
+http:
+  host: 43.143.169.111
+  port: 8880
+  read-timeout: 10
+  write-timeout: 10
+  max-header-bytes: 20
+https:
+  host: 43.143.169.111
+  port: 4433
+  read-timeout: 10
+  write-timeout: 10
+  max-header-bytes: 20
