@@ -26,7 +26,7 @@ func main() {
 	model.SyncToRedis()
 	defer initial.CloseConn()
 	engine := gin.Default()
-	store, _ := redis.NewStore(10, "tcp", "localhost:6379", "abc123456", []byte("secret"))
+	store, _ := redis.NewStore(10, "tcp", global.DebugFullConfig.RedisConfig.Host, global.DebugFullConfig.RedisConfig.Password, []byte("secret"))
 	engine.Use(sessions.Sessions("mysession", store))
 	engine.Use(middleware.Cors(), middleware.AdminAuth())
 	{
