@@ -42,7 +42,7 @@ func main() {
 		ReadTimeout: 5 * time.Second,
 	}
 	if err := server.ListenAndServe(); err != nil {
-		zap.S().Errorf("[Navi Gateway] dashboard server start error,ip:%s", global.DebugFullConfig.ServerConfig.Addr)
+		zap.S().Errorf("[Navi Gateway] dashboard server start error,ip:%s,err:%s", global.DebugFullConfig.ServerConfig.Addr, err.Error())
 		return
 	}
 	zap.S().Infof("[Navi Gateway] dashboard server start addr:%s", global.DebugFullConfig.ServerConfig.Addr)
