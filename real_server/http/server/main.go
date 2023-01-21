@@ -35,7 +35,7 @@ func main() {
 	if err := agent.ServiceRegister(reg); err != nil {
 		fmt.Println(err)
 	}
-	http.ListenAndServe(":2003", nil)
+	http.ListenAndServe("10.0.24.3:2003", nil)
 }
 
 func defaultConfig(logger hclog.Logger, transportFn func() *http.Transport, addr string) *capi.Config {
