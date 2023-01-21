@@ -140,14 +140,14 @@ func main() {
 		Name:    "real_server",
 		ID:      "real_server",
 		Tags:    []string{"real_server"},
-		Address: "10.0.24.3:2003",
+		Address: "43.143.169.111:2003",
 	}
-	client, _ := capi.NewClient(defaultConfig(nil, cleanhttp.DefaultPooledTransport, "10.0.24.3:8500"))
+	client, _ := capi.NewClient(defaultConfig(nil, cleanhttp.DefaultPooledTransport, "43.143.169.111:8500"))
 	agent := client.Agent()
 	if err := agent.ServiceRegister(reg); err != nil {
 		fmt.Println(err)
 	}
 	http.HandleFunc("/test_http_service", handler)
-	http.ListenAndServeTLS("10.0.24.3:2003", ca.Path("server.crt"), ca.Path("server.key"), nil)
-	http.ListenAndServe("10.0.24.3:2003", nil)
+	http.ListenAndServeTLS("43.143.169.111:2003", ca.Path("server.crt"), ca.Path("server.key"), nil)
+	http.ListenAndServe("43.143.169.111:2003", nil)
 }

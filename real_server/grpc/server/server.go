@@ -81,18 +81,18 @@ func main() {
 		Name:    "real_server",
 		ID:      "real_server",
 		Tags:    []string{"real_server"},
-		Address: "10.0.24.3:7777",
+		Address: "43.143.169.111:7777",
 	}
-	client, _ := capi.NewClient(defaultConfig(nil, cleanhttp.DefaultPooledTransport, "10.0.24.3:8500"))
+	client, _ := capi.NewClient(defaultConfig(nil, cleanhttp.DefaultPooledTransport, "43.143.169.111:8500"))
 	agent := client.Agent()
 	if err := agent.ServiceRegister(reg); err != nil {
 		fmt.Println(err)
 	}
-	listen, err := net.Listen("tcp", "10.0.24.3:7777")
+	listen, err := net.Listen("tcp", "43.143.169.111:7777")
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println("listen at port 10.0.24.3:7777")
+	fmt.Println("listen at port 43.143.169.111:7777")
 	server := grpc.NewServer()
 	//调用pb.go的注册方法
 	proto.RegisterEchoServer(server, &Server{})
