@@ -26,7 +26,7 @@ func main() {
 	model.SyncToRedis()
 	defer initial.CloseConn()
 	engine := gin.Default()
-	store, err := redis.NewStore(10, "tcp", global.DebugFullConfig.RedisConfig.Host, global.DebugFullConfig.RedisConfig.Password, []byte("secret"))
+	store, err := redis.NewStore(10, "tcp", "10.0.24.3:6379", global.DebugFullConfig.RedisConfig.Password, []byte("secret"))
 	if err != nil {
 		zap.S().Errorf("[Navi Gateway] err:%s", err.Error())
 	}
