@@ -114,12 +114,12 @@ func main() {
 		Name:    "real_server",
 		ID:      "real_server",
 		Tags:    []string{"real_server"},
-		Address: "43.143.169.111:7000",
+		Address: "10.0.24.3:7000",
 	}
-	client, _ := capi.NewClient(defaultConfig(nil, cleanhttp.DefaultPooledTransport, "43.143.169.111:8500"))
+	client, _ := capi.NewClient(defaultConfig(nil, cleanhttp.DefaultPooledTransport, "10.0.24.3:8500"))
 	agent := client.Agent()
 	if err := agent.ServiceRegister(reg); err != nil {
 		fmt.Println(err)
 	}
-	server.ListenAndServe("43.143.169.111:7000", &TcpHandler{}, context.Background())
+	server.ListenAndServe("10.0.24.3:7000", &TcpHandler{}, context.Background())
 }

@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-var Addr = "43.143.169.111:8012"
+var Addr = "10.0.24.3:8012"
 
 const (
 	timestampFormat = time.StampNano // "Jan _2 15:04:05.000"
