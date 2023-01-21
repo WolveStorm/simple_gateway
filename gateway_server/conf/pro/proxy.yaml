@@ -1,16 +1,16 @@
 http:
-  host: 43.143.169.111
+  host: 10.0.24.3
   port: 8880
   read-timeout: 10000
   write-timeout: 10000
   max-header-bytes: 20
 https:
-  host: 43.143.169.111
+  host: 10.0.24.3
   port: 4433
   read-timeout: 10000
   write-timeout: 10000
   max-header-bytes: 20
 tcp:
-  host: 43.143.169.111
+  host: 10.0.24.3
 grpc:
-  host: 43.143.169.111
+  host: 10.0.24.3

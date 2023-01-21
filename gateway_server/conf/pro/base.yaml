@@ -5,9 +5,9 @@ zap:
   max-age: 30
   max-backup: 5
 consul:
-  addr: "43.143.169.111:8500"
+  addr: "10.0.24.3:8500"
 grpc:
-  host: "43.143.169.111:8848"
+  host: "10.0.24.3:8848"
 #mysql:
 #  dsn: root:abc123456@tcp(127.0.0.1:3306)/gateway?charset=utf8mb4&parseTime=True&loc=Local
 #  max-open-conn: 20
@@ -21,6 +21,6 @@ grpc:
 #  port: 8880 # http的端口
 #  ssl-port: 4433 # https的端口
 redis:
-  host: "43.143.169.111" # 网关的host，用于访问。
+  host: "10.0.24.3" # 网关的host，用于访问。
   port: 6379 # http的端口
   password: "abc123456"
