@@ -56,7 +56,7 @@ https://github.com/PanJiaChen/vue-element-admin
 
 [lumberjack](https://github.com/natefinch/lumberjack)：用于做日志的切分，过期清除功能。
 
-[go-zookeeper](https://github.com/samuel/go-zookeeper)：一个golang集成的zookeeper客户端用来与zookeeper的交互。
+[consul](https://github.com/hashicorp/consul)：一个golang集成的zookeeper客户端用来与zookeeper的交互。
 
 [viper](https://github.com/spf13/viper)：一个简约的配置文件读取库。(后期可以考虑采用nacos来统一配置)。
 
