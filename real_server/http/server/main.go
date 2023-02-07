@@ -7,8 +7,10 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"net/http"
 	"os"
+	"os/signal"
 	"strconv"
 	"strings"
+	"syscall"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -30,12 +32,26 @@ func main() {
 		Tags:    []string{"real_server"},
 		Address: "10.0.24.3:2003",
 	}
+	reg2 := &capi.AgentServiceRegistration{
+		Name:    "real_server",
+		ID:      "real_server",
+		Tags:    []string{"real_server"},
+		Address: "10.0.24.3:2004",
+	}
 	client, _ := capi.NewClient(defaultConfig(nil, cleanhttp.DefaultPooledTransport, "10.0.24.3:8500"))
 	agent := client.Agent()
 	if err := agent.ServiceRegister(reg); err != nil {
 		fmt.Println(err)
 	}
-	http.ListenAndServe("10.0.24.3:2003", nil)
+	if err := agent.ServiceRegister(reg2); err != nil {
+		fmt.Println(err)
+	}
+	go func() { http.ListenAndServe("10.0.24.3:2003", nil) }()
+	go func() { http.ListenAndServe("10.0.24.3:2004", nil) }()
+	sign := make(chan os.Signal)
+	signal.Notify(sign, syscall.SIGINT, syscall.SIGTERM)
+	fmt.Println("启动服务器成功")
+	<-sign
 }
 
 func defaultConfig(logger hclog.Logger, transportFn func() *http.Transport, addr string) *capi.Config {
